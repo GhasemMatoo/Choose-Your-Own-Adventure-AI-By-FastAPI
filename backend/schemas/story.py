@@ -30,7 +30,7 @@ class StoryBase(BaseModel):
         from_attributes = True
 
 
-class CreateStoryResponse(StoryBase):
+class CreateStoryRequest(StoryBase):
     theme: str
 
 
